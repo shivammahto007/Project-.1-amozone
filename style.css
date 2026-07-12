@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    
 
     
 }
@@ -62,7 +63,7 @@
 }
 
 .nav-search:hover{
-     border: 2px solid orange;
+     outline: 2px solid orange;
 }
 
 .search-select{
@@ -81,7 +82,7 @@
 }
 
 .search-icon{
-    width: 45px;
+    width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,3 +172,108 @@ span {
     margin-left: 31px;
 }
 
+.panel{
+    display: flex;
+    color: #ffffff;
+    height: 40px;
+    background-color: #222f3d;
+    align-items: center;
+}
+
+.panel-All{
+    margin-left: 1.2rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 17px;
+    
+}
+
+.panel-All i{
+    height: 14px;
+    width: 17px;
+    font-weight: 700;
+}
+
+
+
+.panel-menu p{
+    margin-left: 1.2rem;
+    font-size: 16px;
+
+}
+
+.panel-menu{
+    display: flex;
+    margin-left: 0.9rem;
+}
+
+.hero-section{
+    background-image: url(images/ama-hero-image.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+.hero-msg{
+    background-color: white;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    width: 90%;
+    margin-bottom: 55px;
+}
+
+.hero-msg a {
+      color: #2152A1;
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #cccccc;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    border: 2px solid black;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    border: none;
+}
+
+.image-1{
+     height: 300px;  
+     width: 300px;
+     background-size: cover;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+}
+
+.box-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-left: 1.2rem;
+    margin-right: 0;
+    
+}
+
+.box-content h2{
+    margin-bottom: 0.6rem;
+}
+
+.box-content p{
+     color: #2152A1;;
+}
