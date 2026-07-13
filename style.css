@@ -455,6 +455,29 @@ ul a{
     height: 12px;
     background-size: cover;
     margin-right: 10px;
-    
-
 }
+
+.foot-panel-4{
+    height: 70px;
+    background-color:  #131A22;
+    color: #dddddd;
+    font-size: 13px;
+}
+
+.option-2{
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+.option-2 a{
+
+    padding: 0px 8px;
+}
+
