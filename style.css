@@ -467,7 +467,7 @@ ul a{
 .option-2{
     display: flex;
     justify-content: center;
-    padding-top: 16px;
+    padding-top: 20px;
 }
 
 .copyright{
@@ -481,3 +481,40 @@ ul a{
     padding: 0px 8px;
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .nav-search {
+        width: 100%;
+        order: 3; 
+    }
+
+    .box {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .quad-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .quad-image {
+        height: 90px;
+    }
+}
+
+@media (max-width: 480px) {
+    .quad-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .signin-option .in {
+        width: 85%;
+    }
+}
