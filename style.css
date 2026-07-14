@@ -481,96 +481,49 @@ ul a{
     padding: 0px 8px;
 }
 
-
-@media (max-width: 1024px) {
-    .shop-section {
-        justify-content: space-around;
-        padding: 20px;
-    }
-    
-    .box {
-        width: 45%;
-        margin-bottom: 20px;
-    }
-}
-
 @media (max-width: 768px) {
-    body {
+    html, body {
         overflow-x: hidden;
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     .navbar {
         flex-wrap: wrap;
-        height: auto;
+        height: auto !important;
         padding: 10px;
         gap: 10px;
-        justify-content: space-between;
-    }
-
-    .nav-logo, .nav-language, .nav-lang, .nav-flag {
-        margin: 0;
-        padding: 5px;
     }
 
     .nav-search {
         width: 100% !important;
         order: 3;
-        margin: 5px 0;
     }
 
-    .shop-section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-        background-color: #e3e6e6;
+    .signin-option {
+        height: auto !important;
+        padding: 30px 10px !important;
     }
 
-    .box {
+    .signin-option .title {
+        font-size: 14px !important;
+        line-height: 1.4 !important;
+        text-align: center;
+        margin-bottom: 12px !important;
+    }
+
+    .footer-links, footer div[class*="panel"] {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        padding: 20px !important;
+        height: auto !important;
+    }
+
+    footer ul, footer div div {
+        margin-bottom: 20px !important;
         width: 100% !important;
-        max-width: 100%;
-        margin: 10px 0;
-        box-sizing: border-box;
-    }
-
-    .box-content {
-        width: 100%;
-    }
-
-    .image-1 {
-        width: 100% !important;
-        max-width: 300px;
-        height: auto;
-        aspect-ratio: 1 / 1;
-    }
-
-    .quad-grid {
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-        width: 100%;
-    }
-
-    .quad-image {
-        height: 100px;
     }
 }
 
-@media (max-width: 480px) {
-    .quad-grid {
-        grid-template-columns: 1fr 1fr;
-        gap: 8px;
-    }
-
-    .quad-image {
-        height: 90px;
-    }
-
-    .signin-option .in {
-        width: 90%;
-    }
-    
-    .nav-search {
-        height: 35px;
-    }
-}
